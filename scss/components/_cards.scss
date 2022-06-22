@@ -1,0 +1,126 @@
+main {
+ 
+        .cards{
+            background-color: $color-code-partner-fondo;
+            padding: 2rem;
+            h4{
+                text-align: center;
+                font-size: 1.4rem;
+                color: $color-code-partner;
+            }
+           .contenedor_cards{
+                margin: 3rem 2rem;
+                display: flex;
+                flex-wrap: wrap;
+            .cards_items{
+                margin: 1rem 0;
+                width: 20rem;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                padding: 1rem;
+                border-radius: 5px;
+                background-color: $color-gris-card;
+                h5{
+                    margin: 1rem 0;
+                    color: $color-code-partner;
+                    font-weight: 600;
+                    text-align: center;
+                }
+                div{
+                     margin: 1rem 0;
+                    img{
+                        width: 16rem;
+                    }
+                }
+                p{
+                    margin: 1rem 0;
+                    color: $color-gris;
+                    font-weight: 600;
+                    width: 18rem;
+                    text-align: center;
+                }
+                a{
+                    margin: 1rem 0;
+                    background-color: $color-code-partner;
+                    color: $color-negro;
+                    padding: 15px;
+                    text-decoration: none;
+                    font-weight: 600;
+                }
+
+                .t-2{
+                    color: $color-blanco;
+                }
+            }
+           }
+        }
+    
+    
+}
+
+// Medias querys
+
+@media (min-width:768px){
+    main {
+ 
+        .cards{
+            background-color: $color-code-partner-fondo;
+            padding: 2rem;
+            h4{
+                text-align: center;
+                font-size: 1.4rem;
+                color: $color-code-partner;
+            }
+           .contenedor_cards{
+                margin: 3rem 2rem;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            .cards_items{
+                margin: 1rem 0;
+                width: 20rem;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                padding: 1rem;
+                border-radius: 5px;
+                background-color: $color-gris-card;
+                h5{
+                    margin: 1rem 0;
+                    color: $color-code-partner;
+                    font-weight: 600;
+                    text-align: center;
+                }
+                div{
+                     margin: 1rem 0;
+                    img{
+                        width: 12rem;
+                    }
+                }
+                p{
+                    margin: 1rem 0;
+                    color: $color-gris;
+                    font-weight: 600;
+                    width: 18rem;
+                    text-align: center;
+                }
+                a{
+                    margin: 1rem 0;
+                    background-color: $color-code-partner;
+                    color: $color-negro;
+                    padding: 15px;
+                    text-decoration: none;
+                    font-weight: 600;
+                }
+
+                .t-2{
+                    color: $color-blanco;
+                }
+            }
+           }
+        }
+    
+    
+}
+}

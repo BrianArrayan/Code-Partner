@@ -1,0 +1,154 @@
+main{
+    .experiencia{
+        padding: 2rem;
+        background-color: $color-code-partner-fondo2;
+        .contenedor_experiencia{
+            text-align: center;
+            .items_experiencia{
+                h3{
+                    color: $color-code-partner;
+                    font-size: 1.4rem;
+                    margin: 1rem 0;
+                }
+                p{
+                    color: $color-blanco;
+                    font-weight: 600;
+                    margin: 1rem 0;
+                    line-height: 18px;
+                    
+                }
+                .english{
+                    color: $color-gris;
+                }
+                img{
+                    margin: 1rem 0;
+                    width: 18rem;
+                }
+                    
+                .elegir_i{
+                    color: $color-code-partner;
+                }
+            }
+        }
+    }
+}
+main{
+    .experiencia2{
+        padding: 2rem;
+        background-color: #262424 !important;
+        .contenedor_experiencia{
+            text-align: center;
+            .items_experiencia{
+                h3{
+                    color: $color-code-partner;
+                    font-size: 1.4rem;
+                    margin: 1rem 0;
+                }
+                p{
+                    color: $color-blanco;
+                    font-weight: 600;
+                    margin: 1rem 0;
+                    line-height: 18px;
+                    
+                }
+                .english{
+                    color: $color-gris;
+                }
+                img{
+                    margin: 1rem 0;
+                    width: 18rem;
+                }
+                    
+                .elegir_i{
+                    color: $color-code-partner;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 768px){
+    main{
+        .experiencia{
+            padding: 7rem 3rem;  
+            background-color: $color-code-partner-fondo;
+            .contenedor_experiencia{
+                display: flex;
+                flex-wrap: wrapß;
+                justify-content: space-around;
+                .items_experiencia{
+                    text-align: start;
+                    h3{
+                        color: $color-code-partner;
+                        font-size: 1.4rem;
+                        margin: 1rem 0;
+                        font-size: 2rem;
+                    }
+                    p{
+                        color: $color-blanco;
+                        font-weight: 600;
+                        font-size: 1.1rem;
+                        margin: 1rem 0;
+                        line-height: 20px;
+                        width: 20rem;
+                    }
+                    .english{
+                        color: $color-gris;
+                        width: 100%;
+                    }
+                    img{
+                        margin: 1rem 0;
+                        width: 20rem;
+                    }
+                        
+                    .elegir_i{
+                        color: $color-code-partner;
+                    }
+                }
+            }
+        }
+    }
+
+    // Exp2
+    main{
+        .experiencia2{
+            padding: 7rem 3rem;
+            background-color: $color-code-partner-fondo2;
+            .contenedor_experiencia{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                .items_experiencia{
+                    text-align: start;
+                    h3{
+                        color: $color-code-partner;
+                        font-size: 1.4rem;
+                        margin: 1rem 0;
+                        font-size: 2rem;
+                    }
+                    p{
+                        color: $color-blanco;
+                        font-weight: 600;
+                        font-size: 1.1rem;
+                        margin: 1rem 0;
+                        line-height: 20px;
+                        width: 20rem;
+                    }
+                    .english{
+                        color: $color-gris;
+                        width: 100%;
+                    }
+                    img{
+                        margin: 1rem 0;
+                        width: 20rem;
+                    }
+                        
+                    .elegir_i{
+                        color: $color-code-partner;
+                    }
+                }
+            }
+        }
+    }
+}

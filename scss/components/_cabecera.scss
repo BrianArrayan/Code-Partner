@@ -1,0 +1,142 @@
+main {
+    .cabecera{
+        padding: 2rem;
+        background-color: $color-code-partner-fondo;
+       
+        div{
+            text-align: center;
+            .iconos{
+                
+                text-align: center;
+                display: flex;
+                
+                img{
+                   
+                    margin-left: 4rem;
+                    margin-bottom: 2rem;
+                    width: 6rem;
+                }
+            }
+            h1{
+                color: $color-blanco;
+                font-size: 1.4rem;
+                margin: 0 2.5rem;
+                span{
+                    color: $color-code-partner;
+                    font-size: 1.4rem;
+                }
+            }
+            .barra_cabecera{
+                background-color: $color-code-partner;
+                width: 3.5rem;
+                height: 5px;
+                margin: 2rem 10rem;
+            }
+            p{
+                margin-top: 1rem;
+                color: $color-blanco;
+                font-weight: 600;
+                margin-bottom: 3rem;
+            }
+            .calidad_cabecera{
+                margin: 3rem;
+                color: $color-gris;
+            }
+            a{
+                text-decoration: none;
+                background-color: $color-code-partner;
+                padding: 15px;
+                font-weight: 600;
+                color: $color-negro;
+                
+            }
+            .curso{
+                color: $color-gris;
+                font-weight: 400;
+            }
+            .empresas{
+                color: #E5E5E5;
+                font-style: italic;
+                font-size: 12px;
+                font-family: 'Cabin', sans-serif;
+            }
+        }
+        img{
+            width: 20rem;
+        }
+    }
+}
+
+
+// Medias querys 
+
+@media (min-width: 768px){
+    
+    main {
+        .cabecera{
+            display: flex;
+            justify-content: space-around;
+           
+            background-color: $color-code-partner-fondo;
+            div{
+                
+                h1{
+                    color: $color-blanco;
+                    font-size: 1.4rem;
+                    width: 20rem !important;
+                    text-align: start;
+                    line-height: 25px;
+                    span{
+                        color: $color-code-partner;
+                        font-size: 1.4rem;
+                    }
+                }
+                .barra_cabecera{
+                    background-color: $color-code-partner;
+                    margin: 2rem 2.4rem;
+                }
+                p{
+                    color: $color-blanco;
+                    font-weight: 600;
+                    margin-left: 2.4rem;
+                    margin-bottom: 3rem;
+                    width: 25rem;
+                    text-align: start;
+                }
+               
+                a{
+                    margin-left: -19rem;
+                    text-decoration: none;
+                    background-color: $color-code-partner;
+                    padding: 15px;
+                    font-weight: 600;
+                    color: $color-negro;
+                }
+                 .calidad_cabecera{
+                    margin: 3rem;
+                    
+                    color: $color-gris;
+                }
+            }
+            img{
+                width: 20rem;
+            }
+        }
+    }
+}
+
+// Mobile
+
+@media (min-width: 500px){
+    main{
+        .cabecera{
+            
+            div{
+           
+                h1{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

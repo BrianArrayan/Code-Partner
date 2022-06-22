@@ -1,0 +1,153 @@
+@import '../var/variables.scss';
+
+header {
+    background-color: $color-code-partner-fondo;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 1rem;
+
+    .header__nav {
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img {
+            width: 9rem;
+            margin: 1rem 0;
+        }
+
+        ul {
+            transition: all .50s;
+            list-style: none;
+            display: flex;
+
+            li {
+                margin: 0 1rem;
+                .dif{
+                    display: none;
+                }
+                a {
+                    color: $color-blanco;
+                    font-size: 12px;
+                    font-weight: 600;
+                    text-decoration: none;
+                    transition: 0.6s all ease;
+                    
+                    &:hover {
+                        color: rgb(113, 104, 104);
+                    }
+                }
+            }
+        }
+
+        .checkbtn {
+            
+            .menu-icon {
+
+                img {
+                    width: 3rem;
+                    border-radius: 10px;
+                }
+                &:hover{
+                    transform: rotate(180deg);
+               
+                }
+            }
+        }
+
+        .menu-icon,
+        #check {
+            display: none;
+        }
+    }
+
+    .header__div {
+        a {
+            text-decoration: none;
+            color: $color-negro;
+            font-weight: 600;
+            padding: 10px;
+            background-color: $color-code-partner;
+        }
+    }
+}
+
+// Medias Query
+
+@media (max-width: 840px) {
+    header {
+        width: 100%;
+
+        .header__divs {
+            display: none;
+        }
+
+        .header__nav {
+            img {
+                
+                width: 8rem;
+            }
+
+            .checkbtn {
+                display: block;
+
+                .menu-icon {
+                    cursor: pointer;
+                    display: block;
+                    position: fixed;
+                    top: 8px;
+                    transition: 1s;
+                    right: 50px;
+
+                    img {
+                        width: 3rem;
+                    }
+
+                   
+                }
+            }
+
+            .header__div {
+                display: none;
+            }
+            ul {
+                display: block;
+                position: fixed;
+                top: 80px;
+                flex-direction: column;
+                background-color: $color-code-partner-fondo;
+                height: 100vh;
+                right: -20px;
+                left: -100%;
+                width: 100%;
+                li{
+                    padding: 2rem;
+                    justify-content: center;
+                    margin: 0;
+                    display: flex;
+                    a{
+                        font-size: 1rem;
+                    }
+                    .dif{
+                        display: block;
+                        background-color: $color-code-partner;
+                        padding: 15px;
+                        color: $color-negro;
+                        font-weight: 600;
+                    }
+                }
+            }
+        
+        }
+    }
+
+    
+    
+    
+    #check:checked~ul {
+        left: 0;
+      
+    }
+
+}

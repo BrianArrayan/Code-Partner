@@ -1,0 +1,22 @@
+$color-negro : #000000;
+$color-gris : #848484;
+$color-blanco : #FFFFFF;
+$color-code-partner: #06BADA;
+$color-code-partner-fondo: #121212;
+$color-code-partner-fondo2: #1C1C1C;
+$color-gris-card: #4F4747;
+$fuente-general : 'Open Sans', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fuente-general;
+    font-size: 14px;
+}
+
+html{
+    scroll-behavior: smooth;
+  
+
+}
